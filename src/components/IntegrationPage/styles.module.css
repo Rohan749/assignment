@@ -1,0 +1,70 @@
+.body {
+  background-color: #141315;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 54px;
+}
+
+.int_para {
+  font-size: 20px;
+}
+
+.body_left {
+}
+
+.body_right {
+  width: 39rem;
+}
+
+.checkpoints {
+  margin: 1rem 0 0 0;
+}
+
+.checkpoints > span {
+  margin-left: 1.5rem;
+  font-size: 24px;
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .body {
+    display: block;
+  }
+
+  .robo {
+    height: 250px;
+  }
+
+  .body_right {
+    width: 100vw;
+  }
+
+  .int_para {
+    font-size: 24px;
+    padding: 0 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .checkpoints {
+    padding: 0 10px;
+  }
+
+  .checkpoints > span {
+    font-size: 15px;
+  }
+  
+}

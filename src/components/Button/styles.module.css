@@ -1,0 +1,20 @@
+.gold_btn {
+    padding: 10px 0;
+    width: 8rem;
+    cursor: pointer;
+    border: 1px solid #BD8928;
+    background-image: linear-gradient(#BD8928, #795B20);
+    margin: 5px;
+    font-weight: bolder;
+}
+
+.black_btn {
+    padding: 10px 0;
+    width: 8rem;
+    cursor: pointer;
+    border: none;
+    background-color:#191919;
+    margin: 5px;
+    font-weight: bolder;
+}
+

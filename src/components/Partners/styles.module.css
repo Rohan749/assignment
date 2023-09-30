@@ -1,0 +1,93 @@
+.navbar {
+  height: 10rem;
+  background-color: #161616;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.heading {
+  margin: 2rem 0 1rem 0;
+}
+
+.subheading {
+  margin: 1rem 0;
+}
+
+.subheading_gold {
+  background-image: linear-gradient(to right, #936c1f, #90691b);
+  color: transparent;
+  display: inline;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.partners_body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: black;
+  padding-left: 10rem;
+}
+
+.partners_bodyleft {
+  width: 25rem;
+}
+
+.daig {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar {
+    height: 8rem;
+  }
+
+  .heading {
+    margin: 5px 0 5px 0;
+  }
+
+  .imgsubheading {
+    height: 20px;
+  }
+
+  .partners_body {
+    display: block;
+    padding-top: 2rem;
+    padding-left: 0;
+  }
+
+  h3 {
+    text-align: center;
+    width: 100vw;
+  }
+
+  .partners_bodyleft {
+    width: 95vw;
+  }
+
+  .subheading_gold {
+    display: block;
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .daig {
+    text-align: center;
+  }
+
+  p {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .bitcoin {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+  }
+
+}

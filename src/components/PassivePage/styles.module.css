@@ -1,0 +1,182 @@
+.body {
+  min-height: 100vh;
+  height: fit-content;
+  padding: 2rem 0;
+  background-color: black;
+  margin-top: -1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.head {
+  background-image: linear-gradient(to right, #936c1f, #90691b);
+  color: transparent;
+  display: inline;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 24px;
+}
+
+.header {
+  font-size: 54px;
+  font-weight: bolder;
+}
+
+.para {
+  font-size: 24px;
+  width: 40rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30rem;
+}
+
+.governancePage {
+  min-height: 100vh;
+  height: fit-content;
+  border-top: 1px solid rgb(45, 45, 45);
+  background-color: black;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding-left: 5rem;
+}
+
+.page_left {
+  width: 50rem;
+}
+
+.option_section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: fit-content;
+}
+
+.option_body {
+  height: 15rem;
+  width: 15rem;
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.option_body > div {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.tokenomics {
+  height: 100vh;
+  background-color: #141315;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tokenpara {
+  font-size: 24px;
+  width: 60rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.tokenBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  border: 1px solid #90691b;
+  background-color: #191919;
+  width: 70vw;
+  padding: 3rem 0;
+}
+
+.tokendata {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 50rem;
+}
+
+.taxData {
+  margin-top: 3rem;
+  display: flex;
+  width: 40rem;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 900px) {
+  .head {
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  .page_left {
+    width: 95vw;
+  }
+  .header {
+    font-size: 24px;
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  .para {
+    width: 95vw;
+    font-size: 20px;
+  }
+
+  .btns {
+    width: 80vw;
+  }
+
+  .governancePage {
+    display: block;
+    padding: 0;
+  }
+
+  .headsection {
+    text-align: center;
+  }
+
+  .daigpara {
+    font-size: 20px;
+  }
+
+  
+  .option_section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tokenpara {
+    width: 95vw;
+    font-size: 20px;
+  }
+
+  .tokenBox {
+    width: 80vw;
+  }
+
+  .tokendata {
+    justify-content: center;
+    width: 40rem;
+  }
+
+  .parakey {
+    font-size: 12px;
+  }
+}

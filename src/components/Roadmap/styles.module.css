@@ -1,0 +1,108 @@
+.body {
+  min-height: 100vh;
+  height: fit-content;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 0 2rem 4rem;
+}
+
+h2 {
+  background-image: linear-gradient(to right, #f6c141, #c7b895);
+  color: transparent;
+  display: inline;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 24px;
+}
+
+.heading {
+  font-size: 42px;
+  font-weight: bold;
+  margin: 2rem 0;
+}
+
+.para {
+  font-size: 24px;
+}
+
+.topBody {
+  width: 30rem;
+  margin: 2rem 0;
+}
+
+.roadmapImg {
+  margin: 4rem 0;
+}
+
+.mobile_app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background-color: #191919;
+}
+
+.mobile_left {
+  width: 50rem;
+}
+
+.mobile_box {
+  background-color: #8a6305;
+  padding: 3rem 0 0 3rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1200px) {
+  .body {
+    padding-left: 0rem;
+  }
+  .topBody {
+    text-align: center;
+    width: 95vw;
+  }
+
+  .para {
+    font-size: 20px;
+  }
+
+  .img_div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .roadmapImg {
+    height: 450px;
+  }
+
+  .mobile_app {
+    height: fit-content;
+  }
+
+  .mobile_box {
+    width: 70vw;
+    display: block;
+    padding: 0;
+  }
+
+  .mobile_left  {
+    text-align: center;
+    width: 70vw;
+  }
+
+  .mobile_img {
+    height: 300px;
+  }
+
+  .telegram {
+    height: 30px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+}

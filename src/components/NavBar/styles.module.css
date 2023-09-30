@@ -1,0 +1,65 @@
+*{
+    color: white;
+}
+
+.navbar {
+    height: 10rem;
+    background-color: #161616;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left_nav {
+    display: flex;
+    align-items: center;
+}
+
+.mid_nav {
+    display: flex;
+}
+
+.mid_nav > div {
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+.right_nav > button {
+    height: 2.5rem;
+    width: 8rem;
+    cursor: pointer;
+    border: 1px solid #BD8928;
+    background-image: linear-gradient(#BD8928, #795B20);
+}
+
+.hamburger {
+    display: none;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    .navbar {
+        justify-content: space-between;
+        padding: 0 1rem;
+        height: 6rem;
+    }
+    .mid_nav {
+        display: none;
+    }
+    .right_nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .daig {
+        height: 15px;
+    }
+
+    .logo {
+        height: 75px;
+    }
+}
