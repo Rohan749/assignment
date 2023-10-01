@@ -36,7 +36,6 @@ const Partners = () => {
         <div data-aos="fade-left" className={classes.bitcoin}>
             <img src={bitcoin} className={classes.bitcoin} alt="bitcoin-img" height={700} />
             <img src={stroke} className={classes.stroke} alt="" height={700} />
-            
         </div>
       </div>
     </>

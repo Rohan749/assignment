@@ -84,6 +84,10 @@ p {
   height: 50px;
 }
 
+.stroke {
+  display: none;
+}
+
   .heading {
     margin: 5px 0 2px 0;
     font-size: 14px;

@@ -30,7 +30,7 @@ const PassivePage = () => {
           Web 3.0 and start earning passive income in $GPTG.
         </div>
         <div data-aos="fade" data-aos-delay="700">
-          <img src={robot} alt="robot-img" height={400} />
+          <img src={robot} alt="robot-img" height={500} />
         </div>
         <div className={classes.btns}>
           <ButtonGold>Try TG-GPT Bot</ButtonGold>
@@ -42,7 +42,7 @@ const PassivePage = () => {
           <img
             src={robo}
             className={classes.robo}
-            height={350}
+            height={400}
             data-aos="fade-up"
             data-aos-delay="300"
           />
@@ -123,7 +123,7 @@ const PassivePage = () => {
           data-aos-delay="500"
           data-aos-anchor-placement="top-bottom"
         >
-          <h3>Contract Address</h3>
+          <div className={classes.contractHead}>Contract Address</div>
           <div className={classes.parakey}>
             0x994A258c7Dec633b5b15376f850D5Ea701179E79
           </div>

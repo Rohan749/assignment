@@ -106,7 +106,7 @@
   border: 1px solid #90691b;
   background-color: #191919;
   width: 70vw;
-  padding: 3rem 0;
+  padding: 1rem 0;
 }
 
 .tokendata {
@@ -115,6 +115,10 @@
   justify-content: space-evenly;
   text-align: center;
   width: 50rem;
+}
+
+.contractHead {
+  margin: 0 0 15px 0;
 }
 
 .taxData {
@@ -127,6 +131,18 @@
 
 .tokendata > div > nav {
   font-weight: bold;
+}
+
+.taxData > div > nav {
+  font-size: 38px;
+  font-weight: bolder;
+  color: white;
+}
+
+.parakey {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
 }
 
 @media only screen and (max-width: 900px) {
