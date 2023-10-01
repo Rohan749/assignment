@@ -42,7 +42,7 @@ const PassivePage = () => {
           <img
             src={robo}
             className={classes.robo}
-            height={200}
+            height={350}
             data-aos="fade-up"
             data-aos-delay="300"
           />

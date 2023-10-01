@@ -16,9 +16,9 @@ const Partners = () => {
     <>
       <div className={classes.navbar}>
         <div className={classes.heading}>PARTNERS</div>
-        <div className={classes.subheading}>
-          <img src={subheading} className={classes.imgsubheading} alt="YOU CAN BE ONE" />
-        </div>
+        <h1 className={classes.subheading}>
+          YOU CAN BE ONE
+        </h1>
       </div>
       <div className={classes.partners_body}>
         <div data-aos="fade-right"  className={classes.partners_bodyleft}>
@@ -31,7 +31,7 @@ const Partners = () => {
           </p>
         </div>
         <div data-aos="fade-left" className={classes.bitcoin}>
-            <img src={bitcoin} className={classes.bitcoin} alt="bitcoin-img" height={600} />
+            <img src={bitcoin} className={classes.bitcoin} alt="bitcoin-img" height={700} />
         </div>
       </div>
     </>

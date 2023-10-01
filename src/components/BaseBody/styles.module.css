@@ -8,7 +8,7 @@
 }
 
 .body_heading {
-  font-size: 48px;
+  font-size: 50px;
   font-weight: bold;
   text-align: left;
   width: 34rem;
@@ -35,8 +35,16 @@
   background-color: #191919;
   margin: 20px;
   padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   min-width: 9rem;
   font-size: 18px;
+  cursor: pointer;
+}
+
+.overView_types > div:hover {
+  background-color: rgb(12, 12, 12);
 }
 
 .baseBody_btns {

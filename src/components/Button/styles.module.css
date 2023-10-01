@@ -1,11 +1,17 @@
 .gold_btn {
-    padding: 10px 0;
-    width: 8rem;
+    padding: 10px 5px;
+    width: fit-content;
     cursor: pointer;
     border: 1px solid #BD8928;
     background-image: linear-gradient(#BD8928, #795B20);
     margin: 5px;
     font-weight: bolder;
+    font-size: 16px;
+    transition-duration: 0.2s;
+}
+
+.gold_btn:hover {
+    background-image: linear-gradient(to right ,#b48018, #f1a923);
 }
 
 .black_btn {
@@ -16,5 +22,11 @@
     background-color:#191919;
     margin: 5px;
     font-weight: bolder;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.black_btn:hover {
+    background-color: rgb(12, 12, 12);
 }
 

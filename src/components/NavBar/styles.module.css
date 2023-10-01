@@ -4,6 +4,11 @@
 
 a {
     text-decoration: none;
+    transition-duration: 0.2s;
+}
+
+a:hover {
+    color: #f7a610;
 }
 
 .navbar {
@@ -24,13 +29,14 @@ a {
 }
 
 .mid_nav > div {
-    margin: 0 10px;
+    margin: 0 20px;
     font-weight: bold;
+    font-size: 24px;
+
 }
 
 .right_nav > button {
     height: 2.5rem;
-    width: 8rem;
     cursor: pointer;
     border: 1px solid #BD8928;
     background-image: linear-gradient(#BD8928, #795B20);
