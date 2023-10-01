@@ -33,7 +33,7 @@ const Roadmap = () => {
         <div data-aos="fade-up" className={classes.mobile_box}>
           <div data-aos="fade-up" data-aos-delay="300" className={classes.mobile_left}>
             <h2>GET GOING WITH THE GAIG</h2>
-            <h1>AI IN YOUR POCKET</h1>
+            <div>AI IN YOUR POCKET</div>
             <p>
               Get your hands on the GPT Guru AI phone application available for
               Android.

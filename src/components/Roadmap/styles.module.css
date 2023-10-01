@@ -95,6 +95,14 @@ h2 {
     width: 70vw;
   }
 
+  .mobile_left > h2 {
+    text-align: center;
+  }
+
+  .mobile_left > div {
+    text-align: center;
+  }
+
   .mobile_div {
     display: flex;
     justify-content: center;
