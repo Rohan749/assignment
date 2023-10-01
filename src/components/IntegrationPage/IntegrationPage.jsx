@@ -23,7 +23,7 @@ const IntegrationPage = () => {
         <img
           src={robot}
           className={classes.robo}
-          height={400}
+          height={550}
           alt="robot-image"
         />
       </div>

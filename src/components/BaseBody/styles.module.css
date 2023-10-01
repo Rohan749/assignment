@@ -32,14 +32,14 @@
 .ellipse3 {
   position: absolute;
   left: 0rem;
-  bottom: 0rem;
-  
+  bottom: -9rem;
+  height: 300px;
   z-index: 9;
 }
 
 .group { 
   position: absolute;
-  top: 15rem;
+  top: 10rem;
   z-index: 9999;
   width: 100vw;
 
@@ -81,9 +81,20 @@
 .baseBody_btns {
   margin: 10px 0;
   display: flex;
+  z-index: 9999;
 }
 
 @media only screen and (max-width: 900px) {
+  .ellipse1 {
+    height: 150px;
+    bottom: -15rem;
+  }
+
+  .ellipse3 {
+    height: 150px;
+    bottom: -15rem;
+  }
+
   .base_body {
     display: block;
   }

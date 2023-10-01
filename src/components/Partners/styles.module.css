@@ -1,6 +1,5 @@
 .navbar {
-  min-height: 15rem;
-  height: fit-content;
+  height: 12rem;
   background-color: #161616;
   display: flex;
   flex-direction: column;
@@ -17,7 +16,7 @@
 .bgimg {
   position: absolute;
   right: 0rem;
-  height: 200px;
+  height: 170px;
 }
 
 .stroke {
@@ -76,8 +75,14 @@ p {
 
 @media only screen and (max-width: 900px) {
   .navbar {
-    height: 4rem;
+    height: fit-content;
+    padding: 1rem 0;
   }
+
+
+.bgimg {
+  height: 50px;
+}
 
   .heading {
     margin: 5px 0 2px 0;
