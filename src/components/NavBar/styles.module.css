@@ -2,6 +2,10 @@
     color: white;
 }
 
+a {
+    text-decoration: none;
+}
+
 .navbar {
     height: 10rem;
     background-color: #161616;
@@ -35,6 +39,22 @@
 .hamburger {
     display: none;
     cursor: pointer;
+}
+
+.hamOptions {
+    background-color: #161616;
+    width: 100vw;
+    height: fit-content;
+    position: absolute;
+    z-index: 999999;
+    padding: 1rem 0;
+}
+
+.hamOptions > div {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 
