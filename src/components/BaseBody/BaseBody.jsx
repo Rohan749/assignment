@@ -28,12 +28,12 @@ const BaseBody = () => {
         <div data-aos="fade" data-aos-delay="600" className={classes.overView}>
           <h3>OVERVIEW</h3>
           <div className={classes.overView_types}>
-            <div>AI driven proposal <br/> analysis</div>
-            <div>Proposal Ranking</div>
+            <div>AI DRIVEN PROPOSAL <br/> ANALYSIS</div>
+            <div>PROPOSAL RANKING</div>
           </div>
           <div className={classes.overView_types}>
-            <div>Token based <br/> voting</div>
-            <div>Voting Recommendations</div>
+            <div>TOKEN BASED <br/> VOTING</div>
+            <div>VOTING RECOMMENDATIONS</div>
           </div>
         </div>
       </div>
