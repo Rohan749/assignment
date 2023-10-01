@@ -2,10 +2,10 @@ import React from "react";
 import classes from "./styles.module.css";
 import daig from "../img/DAIG.svg";
 import logo from "../img/logo.svg";
-import youtube from "../img/youtube.png"
-import instagram  from "../img/Instagram.png"
-import telegram from "../img/Telegram.png"
-import discord from "../img/Discord.png"
+import youtube from "../img/youtube.png";
+import instagram from "../img/Instagram.png";
+import telegram from "../img/Telegram.png";
+import discord from "../img/Discord.png";
 
 const Footer = () => {
   return (
@@ -57,20 +57,20 @@ const Footer = () => {
 
       <div className={classes.links}>
         <a>
-            <img src={discord} alt="discord"/>
+          <img src={discord} alt="discord" />
         </a>
         <a>
-            <img src={telegram} alt="telegram"/>
+          <img src={telegram} alt="telegram" />
         </a>
         <a>
-            <img src={youtube} alt="youtube"/>
+          <img src={youtube} alt="youtube" />
         </a>
         <a>
-            <img src={instagram} alt="instagram"/>
+          <img src={instagram} alt="instagram" />
         </a>
       </div>
       <div className={classes.copyright}>
-      Copyrights © 2023. TG-GPT Bots OÜ.All rights reserved.
+        Copyrights © 2023. TG-GPT Bots OÜ.All rights reserved.
       </div>
     </div>
   );

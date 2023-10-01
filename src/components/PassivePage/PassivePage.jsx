@@ -74,22 +74,22 @@ const PassivePage = () => {
           <div className={classes.parakey}>0x994A258c7Dec633b5b15376f850D5Ea701179E79</div>
           <div className={classes.tokendata}>
           <div>
-            <h3>Symbol</h3>
+            <nav>Symbol</nav>
             <div>$DAIG</div>
           </div>
 
           <div>
-            <h3>Decimal</h3>
+            <nav>Decimal</nav>
             <div>14</div>
           </div>
 
           <div>
-            <h3>Network</h3>
+            <nav>Network</nav>
             <div>ETHEREUM ERC-20</div>
           </div>
 
           <div>
-            <h3>Supply</h3>
+            <nav>Supply</nav>
             <div>9,000,00</div>
           </div>
         </div>

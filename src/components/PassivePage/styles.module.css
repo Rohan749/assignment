@@ -119,6 +119,10 @@
   justify-content: space-evenly;
 }
 
+.tokendata > div > nav {
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 900px) {
   .head {
     text-align: center;
@@ -156,7 +160,6 @@
     font-size: 20px;
   }
 
-  
   .option_section {
     display: flex;
     flex-direction: column;
@@ -168,14 +171,14 @@
   }
 
   .tokenBox {
-    width: 80vw;
+    width: 90vw;
   }
 
   .tokendata {
-    justify-content: center;
-    width: 40rem;
+    justify-content: space-evenly;
+    width: 90vw;
+    font-size: 12px;
   }
-
   .parakey {
     font-size: 12px;
   }

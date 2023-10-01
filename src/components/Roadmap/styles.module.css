@@ -85,7 +85,8 @@ h2 {
   .mobile_box {
     width: 70vw;
     display: block;
-    padding: 0;
+    padding: 1rem 1rem 0 1rem;
+    margin: 1rem;
   }
 
   .mobile_left  {
@@ -93,8 +94,13 @@ h2 {
     width: 70vw;
   }
 
+  .mobile_div {
+    display: flex;
+    justify-content: center;
+  }
+
   .mobile_img {
-    height: 300px;
+    height: 250px;
   }
 
   .telegram {

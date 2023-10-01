@@ -3,8 +3,16 @@ import classes from "./styles.module.css";
 import roadmap from "../img/roadmap.svg";
 import telegram from "../img/telegram.png"
 import mobile from "../img/mobile.png"
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Roadmap = () => {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <>
       <div className={classes.body}>
@@ -22,8 +30,8 @@ const Roadmap = () => {
         </div>
       </div>
       <div className={classes.mobile_app}>
-        <div className={classes.mobile_box}>
-          <div className={classes.mobile_left}>
+        <div data-aos="fade-up" className={classes.mobile_box}>
+          <div data-aos="fade-up" data-aos-delay="300" className={classes.mobile_left}>
             <h2>GET GOING WITH THE GAIG</h2>
             <h1>AI IN YOUR POCKET</h1>
             <p>
@@ -32,7 +40,7 @@ const Roadmap = () => {
             </p>
             <img src={telegram} alt="telegram" className={classes.telegram}/>
           </div>
-          <div>
+          <div data-aos="fade-right" data-aos-delay="600" className={classes.mobile_div}>
             <img src={mobile} className={classes.mobile_img} alt="mobile-img" height={400} />
           </div>
         </div>
