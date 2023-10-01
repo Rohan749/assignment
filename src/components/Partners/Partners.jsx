@@ -5,6 +5,8 @@ import bitcoin from "../img/bitcoin.svg"
 import { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import bgimg from "../img/partnersbg.png"
+import stroke from "../img/stroke.png"
 
 const Partners = () => {
 
@@ -15,6 +17,7 @@ const Partners = () => {
   return (
     <>
       <div className={classes.navbar}>
+        <img src={bgimg} alt="" className={classes.bgimg}/>
         <div className={classes.heading}>PARTNERS</div>
         <h1 className={classes.subheading}>
           YOU CAN BE ONE
@@ -32,6 +35,8 @@ const Partners = () => {
         </div>
         <div data-aos="fade-left" className={classes.bitcoin}>
             <img src={bitcoin} className={classes.bitcoin} alt="bitcoin-img" height={700} />
+            <img src={stroke} className={classes.stroke} alt="" height={700} />
+            
         </div>
       </div>
     </>

@@ -5,6 +5,10 @@ import ButtonBlack from "../Button/ButtonBlack";
 import robo from "../img/robo.svg"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ellipse from "../img/ellipse1.png"
+import ellipse3 from "../img/ellipse3.png"
+import ellipse2 from "../img/ellipse2.png"
+import group from "../img/Group 1.png"
 
 const BaseBody = () => {
 
@@ -14,6 +18,10 @@ const BaseBody = () => {
 
   return (
     <div className={classes.base_body}>
+      <img src={ellipse} className={classes.ellipse1}/>
+      <img src={ellipse3} className={classes.ellipse3}/>
+      <img src={group} className={classes.group}/>
+      
       <div className={classes.body_left}>
         <div data-aos="fade" data-aos-delay="300" className={classes.body_heading}>
           Unlocking the Full Potential Of Daos with Artificial Intelligence{" "}

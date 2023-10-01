@@ -1,5 +1,5 @@
 .navbar {
-  min-height: 8rem;
+  min-height: 15rem;
   height: fit-content;
   background-color: #161616;
   display: flex;
@@ -13,6 +13,20 @@
   font-weight: bold;
   font-size: 24px;
 }
+
+.bgimg {
+  position: absolute;
+  right: 0rem;
+  height: 200px;
+}
+
+.stroke {
+  position: absolute;
+  right: 17rem;
+  top: -2rem;
+  height: 200px;
+}
+
 
 .subheading {
   margin: 1rem 0;
