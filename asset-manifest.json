@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/assignment/static/css/main.b2d213e7.css",
-    "main.js": "/assignment/static/js/main.d2c95f19.js",
+    "main.css": "/assignment/static/css/main.cebb4035.css",
+    "main.js": "/assignment/static/js/main.bd59ed85.js",
     "static/media/roadmap.svg": "/assignment/static/media/roadmap.926625f6cac21b3728aa5615c47212ad.svg",
     "static/media/bitcoin.svg": "/assignment/static/media/bitcoin.96474e587ac3fb537ac927d065d6c001.svg",
     "static/media/logo.svg": "/assignment/static/media/logo.450ca953cc6a1940ebec8b93e6e089c3.svg",
@@ -12,11 +12,11 @@
     "static/media/DAIG.svg": "/assignment/static/media/DAIG.912c11ec3144d7bf808a984704fa75e1.svg",
     "index.html": "/assignment/index.html",
     "static/media/tick.svg": "/assignment/static/media/tick.ffce5bf98fb33dd07979efb197ce19da.svg",
-    "main.b2d213e7.css.map": "/assignment/static/css/main.b2d213e7.css.map",
-    "main.d2c95f19.js.map": "/assignment/static/js/main.d2c95f19.js.map"
+    "main.cebb4035.css.map": "/assignment/static/css/main.cebb4035.css.map",
+    "main.bd59ed85.js.map": "/assignment/static/js/main.bd59ed85.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2d213e7.css",
-    "static/js/main.d2c95f19.js"
+    "static/css/main.cebb4035.css",
+    "static/js/main.bd59ed85.js"
   ]
 }
