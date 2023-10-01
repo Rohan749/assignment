@@ -17,10 +17,11 @@
   -webkit-background-clip: text;
   background-clip: text;
   font-size: 24px;
+  font-weight: bold;
 }
 
 .header {
-  font-size: 54px;
+  font-size: 42px;
   font-weight: bolder;
 }
 
@@ -169,8 +170,8 @@
   }
 
   .tokenpara {
-    width: 95vw;
-    font-size: 20px;
+    width: 90vw;
+    font-size: 16px;
   }
 
   .tokenBox {
@@ -185,4 +186,9 @@
   .parakey {
     font-size: 12px;
   }
+
+  .taxData {
+    width: 70vw;
+  }
+
 }

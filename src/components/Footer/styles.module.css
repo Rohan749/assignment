@@ -85,6 +85,11 @@ nav {
 }
 
 @media only screen and (max-width: 900px) {
+  .body {
+    padding: 4rem 0;
+    height: fit-content;
+  }
+
   .upper_footer {
     flex-direction: column;
     justify-content: center;

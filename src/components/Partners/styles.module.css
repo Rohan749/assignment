@@ -28,6 +28,7 @@ h3 {
   -webkit-background-clip: text;
   background-clip: text;
   font-size: 42px;
+  font-weight: bold;
 }
 
 .partners_body {
@@ -58,7 +59,8 @@ p {
   }
 
   .heading {
-    margin: 5px 0 5px 0;
+    margin: 5px 0 2px 0;
+    font-size: 14px;
   }
 
   .imgsubheading {
@@ -67,31 +69,35 @@ p {
 
   .partners_body {
     display: block;
-    padding-top: 2rem;
+    padding: 3rem 0;
     padding-left: 0;
+    height: fit-content;
   }
 
   h3 {
     text-align: center;
     width: 100vw;
+    font-size: 14px;
   }
 
   .partners_bodyleft {
-    width: 95vw;
+    width: 99vw;
   }
 
   .subheading_gold {
     display: block;
-    font-size: 32px;
+    font-size: 24px;
     text-align: center;
   }
 
   .daig {
     text-align: center;
+    font-size: 22px;
   }
 
   p {
     text-align: center;
+    font-size: 14px;
   }
 
   .bitcoin {
