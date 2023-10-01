@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/assignment/static/css/main.735de73f.css",
-    "main.js": "/assignment/static/js/main.3c89e5ef.js",
+    "main.css": "/assignment/static/css/main.8ebb1ad6.css",
+    "main.js": "/assignment/static/js/main.38f775fd.js",
     "static/media/roadmap.svg": "/assignment/static/media/roadmap.926625f6cac21b3728aa5615c47212ad.svg",
     "static/media/bitcoin.svg": "/assignment/static/media/bitcoin.96474e587ac3fb537ac927d065d6c001.svg",
     "static/media/logo.svg": "/assignment/static/media/logo.450ca953cc6a1940ebec8b93e6e089c3.svg",
@@ -12,11 +12,11 @@
     "static/media/DAIG.svg": "/assignment/static/media/DAIG.912c11ec3144d7bf808a984704fa75e1.svg",
     "index.html": "/assignment/index.html",
     "static/media/tick.svg": "/assignment/static/media/tick.ffce5bf98fb33dd07979efb197ce19da.svg",
-    "main.735de73f.css.map": "/assignment/static/css/main.735de73f.css.map",
-    "main.3c89e5ef.js.map": "/assignment/static/js/main.3c89e5ef.js.map"
+    "main.8ebb1ad6.css.map": "/assignment/static/css/main.8ebb1ad6.css.map",
+    "main.38f775fd.js.map": "/assignment/static/js/main.38f775fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.735de73f.css",
-    "static/js/main.3c89e5ef.js"
+    "static/css/main.8ebb1ad6.css",
+    "static/js/main.38f775fd.js"
   ]
 }
