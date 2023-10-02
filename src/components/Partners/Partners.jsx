@@ -25,7 +25,7 @@ const Partners = () => {
       </div>
       <div className={classes.partners_body}>
         <div data-aos="fade-right"  className={classes.partners_bodyleft}>
-          <h3 >THE FUTURE IS AI</h3>
+          <div className={classes.h3} >THE FUTURE IS AI</div>
           <div className={classes.subheading_gold}>Elevate Defi Governance</div>
           <h1 className={classes.daig}>Meet DAIG!</h1>
           <p>

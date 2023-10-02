@@ -1,7 +1,7 @@
 .body {
   min-height: 100vh;
   height: fit-content;
-  padding: 2rem 0;
+  padding: 4rem 0;
   background-color: black;
   margin-top: -1.5rem;
   display: flex;
@@ -16,20 +16,26 @@
   display: inline;
   -webkit-background-clip: text;
   background-clip: text;
-  font-size: 24px;
+  font-size: 60px;
   font-weight: bold;
 }
 
 .header {
-  font-size: 42px;
+  font-size: 45px;
+  margin: 15px 0;
   font-weight: bolder;
 }
 
 .para {
   font-size: 24px;
-  width: 40rem;
+  width: 70rem;
   margin: 1rem 0;
   text-align: center;
+}
+
+.daigpara {
+  font-size: 24px;
+  padding: 2rem 0;
 }
 
 .btns {
@@ -88,14 +94,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 2rem 0;
+  justify-content: space-evenly;
+  padding: 3rem 0;
 }
 
 .tokenpara {
   font-size: 24px;
   width: 60rem;
-  margin: 1rem 0;
+  margin: 1rem 0 2rem 0;
   text-align: center;
 }
 
@@ -103,11 +109,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
   height: fit-content;
   border: 1px solid #90691b;
   background-color: #191919;
-  width: 70vw;
+  width: 75vw;
   padding: 1rem 0;
+  height: 18rem;
 }
 
 .tokendata {
@@ -120,6 +128,7 @@
 
 .contractHead {
   margin: 0 0 15px 0;
+  font-size: 38px;
 }
 
 .taxData {
@@ -132,41 +141,240 @@
 
 .tokendata > div > nav {
   font-weight: bold;
+  font-size: 18px;
+}
+
+.tokendata > div > div {
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .taxData > div > nav {
-  font-size: 38px;
+  font-size: 42px;
   font-weight: bolder;
   color: white;
 }
 
 .parakey {
-  font-size: 18px;
+  font-size: 28px;
   font-weight: bold;
   margin: 10px 0;
 }
 
-@media only screen and (max-width: 900px) {
+.h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 480px) {
   .head {
     text-align: center;
     margin: 1rem 0;
+    font-size: 32px;
   }
 
   .page_left {
-    width: 98vw;
+    width: 99vw;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .header {
-    font-size: 24px;
+    font-size: 27px;
     text-align: center;
     margin: 1rem 0;
   }
 
   .para {
     width: 95vw;
+    font-size: 23px;
+    line-height: 27px;
+    padding: 0 20px;
+  }
+
+  .btns {
+    width: 99vw;
+  }
+
+  .governancePage {
+    display: block;
+    padding: 0;
+  }
+
+  .headsection {
+    text-align: center;
+  }
+
+  .daigpara {
+    font-size: 24px;
+
+  }
+
+  .option_section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tokenpara {
+    width: 90vw;
+    font-size: 15px;
+  }
+
+  .tokenBox {
+    width: 90vw;
+  }
+
+  .tokendata {
+    justify-content: space-evenly;
+    width: 90vw;
+    font-size: 12px;
+  }
+  .parakey {
+    font-size: 12px;
+  }
+
+  .taxData {
+    width: 70vw;
+  }
+
+  .option_body {
+    height: 15rem;
+    width: 15rem;
+  }
+  .option_body > div {
     font-size: 20px;
+  }
+
+  .tokendata > div > nav {
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  .tokendata > div > div {
+    font-weight: bold;
+    font-size: 12px;
+  }
+} 
+
+
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+  .head {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 32px;
+  }
+
+  .page_left {
+    width: 99vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header {
+    font-size: 27px;
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  .para {
+    width: 95vw;
+    font-size: 23px;
+    line-height: 27px;
+    padding: 0 20px;
+  }
+
+  .btns {
+    width: 99vw;
+  }
+
+  .governancePage {
+    display: block;
+    padding: 0;
+  }
+
+  .headsection {
+    text-align: center;
+  }
+
+  .daigpara {
+    font-size: 24px;
+
+  }
+
+  .option_section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tokenpara {
+    width: 90vw;
+    font-size: 18px;
+  }
+
+  .tokenBox {
+    width: 90vw;
+  }
+
+  .tokendata {
+    justify-content: space-evenly;
+    width: 90vw;
+    font-size: 12px;
+  }
+  .parakey {
+    font-size: 12px;
+  }
+
+  .taxData {
+    width: 70vw;
+  }
+
+  .option_body {
+    height: 15rem;
+    width: 15rem;
+  }
+  .option_body > div {
+    font-size: 20px;
+  }
+
+  .tokendata > div > nav {
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  .tokendata > div > div {
+    font-weight: bold;
+    font-size: 12px;
+  }
+} 
+
+
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
+  .head {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 52px;
+  }
+
+  .page_left {
+    width: 99vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header {
+    font-size: 36px;
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  .para {
+    width: 100vw;
+    font-size: 32px;
+    line-height: 36px;
+    padding: 0 20px;
   }
 
   .btns {
@@ -191,9 +399,13 @@
     flex-direction: column;
   }
 
+  .contractHead {
+    font-size: 32px;
+  }
+
   .tokenpara {
     width: 90vw;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .tokenBox {
@@ -206,11 +418,19 @@
     font-size: 12px;
   }
   .parakey {
-    font-size: 12px;
+    font-size: 24px;
   }
 
   .taxData {
     width: 70vw;
   }
 
-}
+  .option_body {
+    height: 23rem;
+    width: 23rem;
+  }
+
+  .option_body > div {
+    font-size: 30px;
+  }
+} 

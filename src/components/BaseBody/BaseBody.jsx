@@ -7,7 +7,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import ellipse from "../img/ellipse1.png"
 import ellipse3 from "../img/ellipse3.png"
-import ellipse2 from "../img/ellipse2.png"
 import group from "../img/Group 1.png"
 
 const BaseBody = () => {
@@ -34,7 +33,7 @@ const BaseBody = () => {
           <ButtonBlack>White Paper</ButtonBlack>
         </div>
         <div data-aos="fade" data-aos-delay="600" className={classes.overView}>
-          <h3>OVERVIEW</h3>
+          <div className="h3">OVERVIEW</div>
           <div className={classes.overView_types}>
             <div>AI DRIVEN PROPOSAL <br/> ANALYSIS</div>
             <div>PROPOSAL RANKING</div>

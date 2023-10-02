@@ -28,7 +28,7 @@ const IntegrationPage = () => {
         />
       </div>
       <div data-aos="fade" data-aos-delay="400" className={classes.body_right}>
-        <h1>AI Integration</h1>
+        <div className={classes.h1}>AI Integration</div>
         <div className={classes.int_para}>
           Daig integrates advanced AI, including NLP and ML, for proposal
           analysis, personalized recommendations, and adaptive learning.

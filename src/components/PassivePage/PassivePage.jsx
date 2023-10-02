@@ -47,7 +47,7 @@ const PassivePage = () => {
             data-aos-delay="300"
           />
           <div className={classes.headsection}>
-            <h2>Streamlined decision making</h2>
+            <div className={classes.head}>Streamlined decision making</div>
           </div>
           <div
             className={classes.header}
@@ -57,8 +57,7 @@ const PassivePage = () => {
           >
             Your AI Governance Partner
           </div>
-          <p
-            className={classes.daigpara}
+          <div className={classes.daigpara}
             data-aos="fade"
             data-aos-delay="300"
             data-aos-anchor-placement="top-bottom"
@@ -66,7 +65,7 @@ const PassivePage = () => {
             Daig's smart contracts will define the token properties and govern
             the platform's core functionalities, such as voting, staking, and
             rewards distribution
-          </p>
+          </div>
         </div>
         <div className={classes.option_section}>
           <div

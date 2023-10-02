@@ -1,18 +1,19 @@
 .base_body {
-  min-height: 100vh;
+  min-height: 65vh;
   height: fit-content;
   background-color: black;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-top: 5rem;
+  padding: 3rem 0; 
 }
 
 .body_heading {
-  font-size: 50px;
+  margin: 1.7rem 0;
+  font-size: 3.5rem;
   font-weight: bold;
   text-align: left;
-  width: 34rem;
+  width: 40rem;
 }
 
 .ellipse1 {
@@ -46,7 +47,7 @@
 }
 
 .body_para {
-  font-size: 28px;
+  font-size: 2.3rem;
   text-align: left;
   width: 30rem;
   padding: 10px 0;
@@ -54,23 +55,24 @@
 
 .overView {
   margin-top: 5rem;
-  font-size: 24px;
+  font-size: 30px;
   text-align: center;
 }
 
 .overView_types {
   display: flex;
+  justify-content: center;
 }
 
 .overView_types > div {
   background-color: #191919;
-  margin: 20px;
-  padding: 15px;
+  margin: 18px;
+  padding: 1.8rem;
   display: flex;
   align-items: center;
   justify-content: center;
   min-width: 9rem;
-  font-size: 18px;
+  font-size: 24px;
   cursor: pointer;
   transition-duration: 0.2s;
 }
@@ -80,12 +82,14 @@
 }
 
 .baseBody_btns {
-  margin: 10px 0;
   display: flex;
+  width: 18rem;
+  justify-content: space-between;
   z-index: 9999;
 }
 
-@media only screen and (max-width: 900px) {
+
+@media only screen and (min-width: 300px) and (max-width: 480px) {
   .ellipse1 {
     height: 150px;
     bottom: -15rem;
@@ -101,19 +105,20 @@
   }
 
   .body_heading {
-    font-size: 28px;
+    font-size: 1.5rem;
     text-align: center;
-    width: 95vw;
-    padding: 2rem 0;
+    width: 99vw;
+    padding: 0rem 0;
   }
 
   .body_para {
-    width: 93vw;
-    font-size: 18px;
+    width: 99vw;
+    font-size: 22px;
     text-align: center;
   }
   .baseBody_btns {
     justify-content: center;
+    width: 100%;
   }
 
   .overView {
@@ -126,10 +131,11 @@
     background-color: #191919;
     margin: 15px;
     padding: 6px;
-    min-width: 6rem;
+    min-width: 4rem;
+    font-size: 16px;
   }
 
-  h3 {
+  .h3 {
     text-align: center;
     font-size: 18px;
   }
@@ -142,4 +148,125 @@
   .robo {
     height: 455px;
   }
-}
+
+  .body_right {
+    display: flex;
+    justify-content: center;
+  }
+} 
+
+
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+  .ellipse1 {
+    height: 150px;
+    bottom: -15rem;
+  }
+
+  .ellipse3 {
+    height: 150px;
+    bottom: -15rem;
+  }
+
+  .base_body {
+    display: block;
+  }
+
+  .body_heading {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 99vw;
+    padding: 0rem 0;
+  }
+
+  .body_para {
+    width: 99vw;
+    font-size: 22px;
+    text-align: center;
+  }
+  .baseBody_btns {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .overView {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .overView_types > div {
+    background-color: #191919;
+    margin: 15px;
+    padding: 6px;
+    min-width: 4rem;
+    font-size: 20px;
+  }
+
+  .h3 {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .body_right {
+    display: flex;
+    justify-content: center;
+  }
+
+
+} 
+
+
+@media only screen and (min-width: 801px) and (max-width: 1200px) {
+  .ellipse1 {
+    height: 150px;
+    bottom: -15rem;
+  }
+
+  .ellipse3 {
+    height: 150px;
+    bottom: -15rem;
+  }
+
+  .base_body {
+    display: block;
+  }
+
+  .body_heading {
+    font-size: 2.4rem;
+    text-align: center;
+    width: 99vw;
+    padding: 0rem 0;
+  }
+
+  .body_para {
+    width: 99vw;
+    font-size: 1.9rem;
+    text-align: center;
+  }
+  .baseBody_btns {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .overView {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .overView_types > div {
+    background-color: #191919;
+    margin: 15px;
+    padding: 1rem;
+    min-width: 8rem;
+  }
+
+  .h3 {
+    text-align: center;
+    font-size: 22px;
+  }
+  .body_right {
+    display: flex;
+    justify-content: center;
+  }
+} 

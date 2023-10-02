@@ -24,19 +24,19 @@
   display: inline;
   -webkit-background-clip: text;
   background-clip: text;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .subhead2 {
   font-weight: bolder;
-  font-size: 42px;
+  font-size: 50px;
   color: white;
 }
 
 .swiper {
-  width: 20rem;
-  height: 30rem;
+  width: 30rem;
+  height: 42rem;
   padding: 4rem 0;
 }
 
@@ -92,8 +92,8 @@
 }
 
 .swiper {
-  width: 15rem;
-  height: 23rem;
+  width: 17rem;
+  height: 28rem;
   padding: 4rem 0;
 }
 
