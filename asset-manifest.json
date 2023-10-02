@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/assignment/static/css/main.324236ad.css",
-    "main.js": "/assignment/static/js/main.8970a4be.js",
+    "main.css": "/assignment/static/css/main.f443ceba.css",
+    "main.js": "/assignment/static/js/main.ad15041f.js",
     "static/media/roadmap.svg": "/assignment/static/media/roadmap.926625f6cac21b3728aa5615c47212ad.svg",
     "static/media/bitcoin.svg": "/assignment/static/media/bitcoin.96474e587ac3fb537ac927d065d6c001.svg",
     "static/media/logo.svg": "/assignment/static/media/logo.450ca953cc6a1940ebec8b93e6e089c3.svg",
     "static/media/integrationRobo.svg": "/assignment/static/media/integrationRobo.f522d5ddb29cac311756cdd2bdbf8f5d.svg",
-    "static/media/ellipse2.png": "/assignment/static/media/ellipse2.27f07637dcba41f44549.png",
     "static/media/robo.svg": "/assignment/static/media/robo.e938c8d575d46b0f5679b0f43a1c37a3.svg",
     "static/media/ellipse3.png": "/assignment/static/media/ellipse3.cfcf5db4fa52589eaa27.png",
     "static/media/ellipse1.png": "/assignment/static/media/ellipse1.6e675d7768e25de5dade.png",
@@ -18,11 +17,11 @@
     "static/media/DAIG.svg": "/assignment/static/media/DAIG.912c11ec3144d7bf808a984704fa75e1.svg",
     "index.html": "/assignment/index.html",
     "static/media/tick.svg": "/assignment/static/media/tick.ffce5bf98fb33dd07979efb197ce19da.svg",
-    "main.324236ad.css.map": "/assignment/static/css/main.324236ad.css.map",
-    "main.8970a4be.js.map": "/assignment/static/js/main.8970a4be.js.map"
+    "main.f443ceba.css.map": "/assignment/static/css/main.f443ceba.css.map",
+    "main.ad15041f.js.map": "/assignment/static/js/main.ad15041f.js.map"
   },
   "entrypoints": [
-    "static/css/main.324236ad.css",
-    "static/js/main.8970a4be.js"
+    "static/css/main.f443ceba.css",
+    "static/js/main.ad15041f.js"
   ]
 }
