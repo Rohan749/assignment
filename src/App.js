@@ -1,5 +1,6 @@
 import './App.css';
 import BaseBody from './components/BaseBody/BaseBody';
+import Carousel from './components/Carousel/Carousel';
 import Footer from './components/Footer/Footer';
 import IntegrationPage from './components/IntegrationPage/IntegrationPage';
 import Navbar from './components/NavBar/Navbar';
@@ -15,6 +16,7 @@ function App() {
     <Partners />
     <IntegrationPage />
     <PassivePage />
+    <Carousel />
     <Roadmap />
     <Footer />
     </div>

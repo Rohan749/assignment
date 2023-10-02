@@ -1,0 +1,140 @@
+.body {
+  margin: 0;
+  padding: 1rem;
+  background-color: black;
+}
+
+.heading {
+  margin: 2rem 3rem;
+}
+
+.position {
+  margin: 2rem 0;
+  font-size: 20px;
+  color: #fdd433;
+}
+
+.profile-name {
+  font-size: 40px;
+}
+
+.subhead1 {
+  background-image: linear-gradient(to right, #f6c141, #d0832a);
+  color: transparent;
+  display: inline;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.subhead2 {
+  font-weight: bolder;
+  font-size: 42px;
+  color: white;
+}
+
+.swiper {
+  width: 20rem;
+  height: 30rem;
+  padding: 4rem 0;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #8a6305;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide {
+  background-color: #ab8510;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile_app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background-color: #191919;
+}
+
+.mobile_left {
+  width: 50rem;
+}
+
+.mobile_box {
+  background-color: #8a6305;
+  padding: 3rem 0 0 3rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .heading {
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+.position {
+  font-size: 15px;
+}
+
+.profile-name {
+  font-size: 20px;
+}
+
+.swiper {
+  width: 15rem;
+  height: 23rem;
+  padding: 4rem 0;
+}
+
+  .mobile_app {
+    height: fit-content;
+  }
+
+  .mobile_box {
+    width: 70vw;
+    display: block;
+    padding: 1rem 1rem 0 1rem;
+    margin: 1rem;
+  }
+
+  .mobile_left {
+    text-align: center;
+    width: 70vw;
+  }
+
+  .mobile_left > h2 {
+    text-align: center;
+  }
+
+  .mobile_left > div {
+    text-align: center;
+  }
+
+  .mobile_div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mobile_img {
+    height: 250px;
+  }
+
+  .telegram {
+    height: 30px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}

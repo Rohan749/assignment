@@ -36,26 +36,6 @@ h2 {
   margin: 4rem 0;
 }
 
-.mobile_app {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 80vh;
-  background-color: #191919;
-}
-
-.mobile_left {
-  width: 50rem;
-}
-
-.mobile_box {
-  background-color: #8a6305;
-  padding: 3rem 0 0 3rem;
-  border-radius: 10px;
-  display: flex;
-  justify-content: space-between;
-}
-
 @media only screen and (max-width: 1200px) {
   .body {
     padding: 0rem;
@@ -77,47 +57,6 @@ h2 {
 
   .roadmapImg {
     height: 450px;
-  }
-
-  .mobile_app {
-    height: fit-content;
-  }
-
-  .mobile_box {
-    width: 70vw;
-    display: block;
-    padding: 1rem 1rem 0 1rem;
-    margin: 1rem;
-  }
-
-  .mobile_left  {
-    text-align: center;
-    width: 70vw;
-  }
-
-  .mobile_left > h2 {
-    text-align: center;
-  }
-
-  .mobile_left > div {
-    text-align: center;
-  }
-
-  .mobile_div {
-    display: flex;
-    justify-content: center;
-  }
-
-  .mobile_img {
-    height: 250px;
-  }
-
-  .telegram {
-    height: 30px;
-  }
-
-  p {
-    font-size: 15px;
   }
 
 }
