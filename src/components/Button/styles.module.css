@@ -5,7 +5,7 @@
     width: fit-content;
     cursor: pointer;
     border: 1px solid #BD8928;
-    background-image: linear-gradient(#BD8928, #795B20);
+    background-image: linear-gradient(#c48716, #c18100);
     margin: 5px;
     font-weight: bolder;
     font-size: 18px;
@@ -13,7 +13,7 @@
 }
 
 .gold_btn:hover {
-    background-image: linear-gradient(to right ,#b48018, #f1a923);
+    background-image: linear-gradient(to right ,#af7500, #ffb834);
 }
 
 .black_btn {

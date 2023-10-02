@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import classes from "./styles.module.css";
 import ButtonGold from "../Button/ButtonGold";
 import ButtonBlack from "../Button/ButtonBlack";
@@ -8,12 +8,32 @@ import 'aos/dist/aos.css';
 import ellipse from "../img/ellipse1.png"
 import ellipse3 from "../img/ellipse3.png"
 import group from "../img/Group 1.png"
+import Typed from "typed.js";
 
 const BaseBody = () => {
 
+  const el = useRef(null);
+
   useEffect(() => {
+
     AOS.init();
-  }, [])
+    
+    const typed = new Typed(el.current, {
+      strings: ["Artificial Intelligence", "Machine Learning", "Language Processing"],
+      startDelay: 300,
+      typeSpeed: 50,
+      backSpeed: 50,
+      backDelay: 700,
+      smartBackspace: true,
+      loop: true,
+      showCursor: true,
+    });
+
+    // Destropying
+    return () => {
+      typed.destroy();
+    };
+  }, []);
 
   return (
     <div className={classes.base_body}>
@@ -23,7 +43,7 @@ const BaseBody = () => {
       
       <div className={classes.body_left}>
         <div data-aos="fade" data-aos-delay="300" className={classes.body_heading}>
-          Unlocking the Full Potential Of Daos with Artificial Intelligence{" "}
+          Unlocking the Full Potential Of Daos with <br/> <span className={classes.animetext} ref={el}></span>
         </div>
         <div data-aos="fade" data-aos-delay="400" className={classes.body_para}>
           Empower DeFi Governance with AI-Powered Decisions

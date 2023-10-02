@@ -8,6 +8,10 @@
   padding: 3rem 0; 
 }
 
+.animetext {
+  color: rgb(224, 164, 11);
+}
+
 .body_heading {
   margin: 1.7rem 0;
   font-size: 3.5rem;

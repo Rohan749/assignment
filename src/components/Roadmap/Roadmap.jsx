@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./styles.module.css";
 import roadmap from "../img/roadmap.svg";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -9,7 +9,9 @@ const Roadmap = () => {
 
   useEffect(() => {
     AOS.init();
-  }, [])
+  }, []);
+
+
 
   return (
     <>
@@ -24,7 +26,6 @@ const Roadmap = () => {
           </p>
         </div>
         <div className={classes.img_div}>
-          <img className={classes.roadmapImg} src={roadmap} alt="roadmap" height={1400} />
         </div>
       </div>
       
