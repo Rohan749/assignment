@@ -82,7 +82,7 @@
 }
 
 .overView_types > div:hover {
-  background-color: rgb(218, 163, 25);
+  background-image: linear-gradient(to right, rgb(161, 115, 0), rgb(255, 183, 0));
 }
 
 .baseBody_btns {

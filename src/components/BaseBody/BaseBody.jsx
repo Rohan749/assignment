@@ -29,7 +29,6 @@ const BaseBody = () => {
       showCursor: true,
     });
 
-    // Destropying
     return () => {
       typed.destroy();
     };
