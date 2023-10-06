@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem 0 2rem 4rem;
+  padding: 4rem;
 }
 
 h2 {
@@ -40,10 +40,11 @@ h2 {
 }
 
 .mapbox {
-  width: 23rem;
-  height: 17rem;
+  width: 21em;
+  height: 17em;
   background-color: #110c14;
   padding: 3rem;
+  margin: 3rem;
 }
 
 .mapbox_phase {
@@ -68,10 +69,16 @@ h2 {
   color: rgb(201, 201, 201);
 }
 
+.map_cover {
+  display: flex;
+  justify-content: center;
+}
+
 .map_div {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
   margin: 1.5rem 0;
+  width: 66em;
 }
 
 .dot {
@@ -90,7 +97,6 @@ h2 {
   }
 
   .para {
-    font-size: 20px;
     padding: 0 2rem;
   }
 
@@ -104,10 +110,8 @@ h2 {
   }
 
   .mapbox {
-    width: 9rem;
-    height: fit-content;
     background-color: #110c14;
-    padding: 5px;
+    padding: 10px;
   }
 
   .mapbox_phase {
@@ -118,23 +122,17 @@ h2 {
   }
 
   .phase {
-    font-size: 10px;
     font-weight: bold;
   }
 
   .phase_desc {
     margin: 10px 0;
     font-weight: bold;
-    font-size: 12px;
   }
 
-  .phase_type {
-    font-size: 12px;
-  }
 
   .phase_para {
-    line-height: 17px;
-    font-size: 12px;
+    line-height: 23px;
     color: rgb(201, 201, 201);
   }
 
@@ -176,11 +174,8 @@ h2 {
   }
 
   .mapbox {
-    width: 13rem;
     min-height: fit-content;
-    height: 11rem;
     background-color: #110c14;
-    padding: 5px;
   }
 
   .mapbox_phase {
@@ -191,23 +186,17 @@ h2 {
   }
 
   .phase {
-    font-size: 10px;
     font-weight: bold;
   }
 
   .phase_desc {
     margin: 10px 0;
     font-weight: bold;
-    font-size: 12px;
   }
 
-  .phase_type {
-    font-size: 12px;
-  }
 
   .phase_para {
-    line-height: 17px;
-    font-size: 12px;
+    line-height: 25px;
     color: rgb(201, 201, 201);
   }
 
@@ -249,11 +238,10 @@ h2 {
   }
 
   .mapbox {
-    width: 20rem;
+
     min-height: fit-content;
-    height: 14rem;
     background-color: #110c14;
-    padding: 1rem;
+    padding: 2rem;
   }
 
   .mapbox_phase {
@@ -287,6 +275,7 @@ h2 {
   .map_div {
     display: flex;
     justify-content: space-evenly;
+    flex-direction: column;
     margin: 1.5rem 0;
   }
 
